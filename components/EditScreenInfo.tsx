@@ -9,7 +9,7 @@ import Colors from '@/constants/Colors';
 
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
-    <View>
+    <View className={'bg-red-500'}>
       <View style={styles.getStartedContainer}>
         <Text
           style={styles.getStartedText}
